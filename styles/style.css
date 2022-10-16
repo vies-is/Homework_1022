@@ -1,0 +1,91 @@
+ /* overall style of the page */
+ .body {
+    font-family: monospace, sans-serif, Arial;
+    background-color: lightgray;
+}
+/* Specifics for left-placed image container */
+
+/* header'sstyle */
+
+.header {
+    font-family: monospace, sans-serif, Arial;
+    font-size: 18px;
+}    
+
+.container_1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: monospace, sans-serif, Arial;
+}
+/* Specifics for right-placed image container */	
+.container_2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: monospace, sans-serif, Arial;
+}
+/* paragraph style */
+.p {
+    font-size: 18px;
+    font-family: monospace, sans-serif, Arial;
+}
+
+/* article's style */
+.article {
+    font-size: 18px;
+    font-family: monospace, sans-serif, Arial;
+}
+
+/* unordered list style */
+.ul {
+    font-family: monospace, sans-serif, Arial;
+    font-size: 18px;
+}
+/* ordered list style */
+.ol {
+    font-family: monospace, sans-serif, Arial;
+    font-size: 18px;
+}
+/* footnote's style */
+.sup {
+    font-size: 18px;
+    font-family: monospace, sans-serif, Arial;
+}
+
+/* footers style */
+.footer {
+    font-size: 16px;
+    font-family: monospace, sans-serif, Arial;
+}
+
+/* for image placement */
+.img {
+    max-width: 100%;
+    border: 1px solid black;
+}
+/* for images */
+.img {
+    flex-basis: 40%;
+}
+
+.text {
+    font-family: monospace, sans-serif, Arial;
+    padding-right: 20px;
+}
+
+/* for title headers */
+
+.title,
+h1,
+h2,
+h3 {
+    font-family: monospace, sans-serif, Arial;
+}
+
+.thin-dark-border {
+    border-color: solid black;
+    border-width: 2px;
+    border-style: solid;
+}

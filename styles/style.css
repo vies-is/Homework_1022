@@ -21,7 +21,7 @@
 /* Specifics for right-placed image container */	
 .container_2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: flex-start;
     align-items: center;
     font-family: monospace, sans-serif, Arial;

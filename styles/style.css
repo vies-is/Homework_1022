@@ -62,7 +62,7 @@
 
 /* for image placement */
 .img {
-    max-width: 100%;
+    max-width: 350;
     border: 1px solid black;
 }
 /* for images */
@@ -88,4 +88,24 @@ h3 {
     border-color: solid black;
     border-width: 2px;
     border-style: solid;
+}
+
+.zemlika_2022_logo {
+    width: 350px;
+    height: 200px;
+}
+.zemlika_logo {
+    width: 250px;
+    height: 250px;
+}
+
+.baznica {
+    width: 350px;
+    height: 250px;
+}
+
+.karte {
+    width: 350px;
+    height:350px;
+    border-style: none;
 }

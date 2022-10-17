@@ -10,12 +10,14 @@
 .header {
     font-family: monospace, sans-serif, Arial;
     font-size: 18px;
+    margin-top: none;
 }    
 
 .container_1 {
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: left;
     font-family: monospace, sans-serif, Arial;
 }
 /* Specifics for right-placed image container */	
@@ -73,6 +75,7 @@
 .text {
     font-family: monospace, sans-serif, Arial;
     padding-right: 20px;
+    font-size: 18px;
 }
 
 /* for title headers */
@@ -82,6 +85,10 @@ h1,
 h2,
 h3 {
     font-family: monospace, sans-serif, Arial;
+    padding-bottom: none;
+    padding-top: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .thin-dark-border {
@@ -91,8 +98,8 @@ h3 {
 }
 
 .zemlika_2022_logo {
-    width: 350px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
 }
 .zemlika_logo {
     width: 250px;

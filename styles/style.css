@@ -69,7 +69,7 @@ ul li::before {
     list-style-position: inside;
     content: "\2666";
     padding-right: 8px;
-    color: black;
+    color: black
     line-height: 1em;
     padding: 0;
 }

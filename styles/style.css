@@ -15,7 +15,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-end;
     font-family: monospace, sans-serif, Arial;
 }
 /* Specifics for right-placed image container */	
@@ -137,8 +137,8 @@ h3 {
 /* for image title positioning below image */
 .image_title_1 {
     position: absolute;
-    left: 55%;
-    margin-right: -50%;
+    left: 75%;
+    margin-right: -40%;
     font-size: 10px;
     font-family: monospace, sans-serif, Arial;
 }

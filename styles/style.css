@@ -8,8 +8,7 @@
 /* header'sstyle */
 .header {
     font-family: monospace, sans-serif, Arial;
-    font-size: 18px;
-    margin-top: 0px;
+    font-size: 16px;
 }    
 /* specifics for centered image container */
 .container_1 {
@@ -27,23 +26,52 @@
     align-items: center;
     font-family: monospace, sans-serif, Arial;
 }
+
+/* Specifics for left-placed image container */	
+.container_3 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    font-family: monospace, sans-serif, Arial;
+}
+
 /* paragraph, article, footnote's style */
 .p, 
 .article,
 .sup {
-    font-size: 18px;
     font-family: monospace, sans-serif, Arial;
+    margin-top: 5px;
+    padding: 0;
+    margin: 0;
 }
 
-/* unordered list style */
-.ul {
-    font-family: monospace, sans-serif, Arial;
-    font-size: 18px;
-}
 /* ordered list style */
 .ol {
     font-family: monospace, sans-serif, Arial;
-    font-size: 18px;
+    font-size: 16px;
+    list-style-type: decimal;
+}
+/* unordered list style */
+
+/* switching from bullets to diamonds step1 */
+ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    line-height: 1.5em;
+}
+/* switching from bullets to diamonds step2 */
+ul li {
+    padding: 0px;
+}
+/* switching from bullets to diamonds step3 */
+ul li::before {
+    list-style-position: inside;
+    content: "\2666";
+    padding-right: 8px;
+    color: black;
+    line-height: 1em;
+    padding: 0;
 }
 /* footers style */
 .footer {
@@ -51,56 +79,84 @@
     font-family: monospace, sans-serif, Arial;
 }
 
-/* for image placement */
-.img {
-    max-width: 350px;
-    border: 1px solid black;
-}
-/* for images */
-.img {
-    flex-basis: 40%;
-}
-
+/* style for text */
 .text {
     font-family: monospace, sans-serif, Arial;
-    padding-right: 20px;
-    font-size: 18px;
+    padding-right: 30px;
+    font-size: 16px;
 }
 
-/* for title and headers */
+/* style for title and headers */
 .title,
 h1,
 h2,
 h3 {
     font-family: monospace, sans-serif, Arial;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
 }
 
+/* defines border around image */
 .thin-dark-border {
     border-color: black;
     border-width: 2px;
     border-style: solid;
 }
 
+/* first photo's style */
 .zemlika_2022_logo {
-    width: 400px;
-    height: 250px;
-}
-.zemlika_logo {
-    width: 250px;
-    height: 250px;
+    width: 60%;
+    height: auto;
+    position: relative;
+    display: block;
 }
 
+/* second photo's style */
+.zemlika_logo {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: block;
+}
+
+/* third photo's style */
 .baznica {
     width: 350px;
     height: 250px;
+    position: relative;
+    display: block;
 }
 
+/* defines size of map in i-frame */
 .karte {
     width: 350px;
     height:350px;
-    border-style: none;
+    border-style: hidden;
+}
+/* for image title positioning below image */
+.image_title_1 {
+    position: absolute;
+    left: 55%;
+    margin-right: -50%;
+    font-size: 10px;
+    font-family: monospace, sans-serif, Arial;
+}
+/* for image title positioning below image */
+.image_title_2 {
+    position: relative;
+    left: 60%;
+    margin-right: -50%;
+    font-size: 10px;
+    font-family: monospace, sans-serif, Arial;
+    margin-bottom: 30px;
+}
+/* for image title positioning below image */
+.image_title_3 {
+    position: absolute;
+    display: grid;
+    left: 110px;
+    margin-right: -50%;
+    font-size: 10px;
+    font-family: monospace, sans-serif, Arial;
 }

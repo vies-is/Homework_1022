@@ -77,6 +77,7 @@ ul li::before {
 .footer {
     font-size: 16px;
     font-family: monospace, sans-serif, Arial;
+    margin-bottom: 20px;
 }
 
 /* style for text */

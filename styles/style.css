@@ -60,8 +60,10 @@ figure {
 
 /* Specifics for left-placed image container */	
 .image_3 {
+    flex-flow: row-reverse;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
 }
 
 /* ordered list style */

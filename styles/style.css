@@ -61,6 +61,7 @@ figure {
 /* Specifics for left-placed image container */	
 .image_3 {
     display: flex;
+    justify-content: left;
     justify-content: flex-start;
 }
 

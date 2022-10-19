@@ -51,7 +51,7 @@ figure {
 .image_2 {
     display: flex;
     min-width: 250px;
-    flex-flow: row-reverse;
+    flex-flow: row;
     justify-content: space-around;
     align-items: center;
     margin-left: 30px;
@@ -60,10 +60,8 @@ figure {
 
 /* Specifics for left-placed image container */	
 .image_3 {
-    flex-flow: row-reverse;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
 }
 
 /* ordered list style */
@@ -112,7 +110,7 @@ ul li::before {
     border-style: solid;
 }
 
-/* defines figure caption */
+/* defines main image caption style with centered text*/
 figcaption {
     font-family: monospace, sans-serif, Arial;
     font-size: 14px;
@@ -121,6 +119,16 @@ figcaption {
     padding: 0;
     margin: 0;
     text-align: center;
+}
+/* defines secondary image caption style with text on the left */
+.figcaption_1 {
+    font-family: monospace, sans-serif, Arial;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 /* relation of ul list to second image*/
 .saraksts {
